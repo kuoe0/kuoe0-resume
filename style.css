@@ -1,0 +1,161 @@
+/*
+ * Filename: resume.css
+ * Author:   KuoE0 <kuoe0.tw@gmail.com>
+ *
+ * Copyright (C) 2018
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+  background: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  list-style:none;
+}
+
+li::before {
+  font-family: 'FontAwesome';
+  content: '- ';
+}
+
+section {
+  margin: 10px 0;
+}
+
+.detail-cat {
+  padding: 5px 0;
+  border-bottom: 1px solid #EEE;
+  color: #777;
+}
+
+.detail-content {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.detail-cat-icon {
+  display: inline-block;
+}
+
+#name h1 {
+  margin: 0;
+}
+#name {
+  margin-top: 0;
+}
+
+span#job {
+  color: #777;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2.detail-cat-title {
+  font-variant: small-caps;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.column {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact ul li {
+  margin-bottom: 3px;
+}
+
+#contact ul li:last-child {
+  margin-bottom: 0;
+}
+
+span.duration,
+span.duration i {
+  color: #999;
+  font-size: 11px;
+}
+
+#contact ul li::before {
+  font-family: sans-serif;
+  padding: 0;
+  content: '';
+}
+
+.experience-item {
+  margin-bottom: 5px;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+#skill ul li::before {
+  font-family: sans-serif;
+  padding: 0;
+  content: '';
+}
+
+#skill ul li {
+  display: inline-block;
+  background-color: #555;
+  color: white;
+  padding: 3px;
+}
+
+span.ref-link,
+span.ref-link a {
+  font-size: 10px;
+  color: #777;
+  font-weight: normal;
+}
+
+span.ref-link a {
+  text-decoration: underline;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+
+  }
+}
